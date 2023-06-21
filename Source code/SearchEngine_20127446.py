@@ -13,9 +13,10 @@ import re
 from nltk import ngrams
 from gensim.models import Word2Vec
 import unidecode
-input_file_path = "truyen_kieu_data.txt" # original file
-output_file_path = "truyen_kieu_dict.txt" # file dictionary
-file_unidecode = "truyen_kieu_unidecode.txt" # file after lọc hết dấu
+
+input_file_path = "./truyen_kieu_data.txt" # original file
+output_file_path = "./truyen_kieu_dict.txt" # file dictionary
+file_unidecode = "./truyen_kieu_unidecode.txt" # file after lọc hết dấu
 
 """## 1. Các hàm đọc ghi file và tạo Dictionary
 
